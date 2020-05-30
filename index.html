@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="./assets/img/favicon.ico" />
-  <title>Webpack Bootstrap Sass</title>
+  <title>Valid Form</title>
   <link rel="stylesheet" type="text/css" href="./dist/css/index.css" />
 </head>
+
 <body>
   <div class="container">
+    <div class="logo">
+      <a href="https://github.com/caioalexandrebr/valid-form">
+        <img src="./assets/img/logo.png" alt="Valid Form">
+      </a>
+    </div>
     <form id="form">
       <div class="form-group">
         <label for="email">Email:</label><br>
         <input type="text" id="email" class="email" name="email" value="contato@caioalexandre.com">
         <span>Please specify a valid email address</span>
       </div>
-  
+
       <div class="form-group">
         <label for="email">Email:</label><br>
         <input type="text" id="email" class="email" name="email" value="invalid.com">
         <span>Please specify a valid email address</span>
       </div>
-  
+
       <input class="button" type="submit" value="Submit">
     </form>
   </div>
   <script src="./dist/js/vendors.js"></script>
   <script src="./dist/js/index.js"></script>
 </body>
+
 </html>
