@@ -1,5 +1,5 @@
 {
-  "name": "webpack-bootstrap-sass",
+  "name": "valid-form",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "prod": "webpack --mode production --watch",
     "build": "webpack --mode production"
   },
-  "author": "",
+  "author": "Caio Alexandre",
   "license": "ISC",
   "dependencies": {
     "browser-sync": "^2.26.7",
